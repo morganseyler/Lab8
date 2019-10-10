@@ -81,6 +81,7 @@ public enum Contestant
     public String toString()
     {
         String contestantName = name().toLowerCase();
+	// TEST TEST
 
         return String.format("%s: %s", contestantName, info.toString());
     }
